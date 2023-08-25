@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Odor+Mean+Chey&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background: linear-gradient(#ADF6ED,#FFFFFF);
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+.logohead
+{
+    display: flex;
+}
+
+.logohead img
+{
+    height: 250px;
+    margin-top: -30px;
+}
+
+.line
+{
+    margin-left: 420px;
+    margin-top: -60px;
+}
+
+.logohead .heading
+{
+    font-size: 96px;
+    color:#883030;
+    font-family: 'Itim', cursive;
+    margin-left: 180px;
+    display: flex;
+    margin-top: 20px;
+    justify-content:center;
+    align-items: center;
+}
+
+.heart
+{
+    display: flex;
+}
+
+.heart .consult
+{
+    font-size: 48px;
+    font-family: 'Itim', cursive;
+}
+.txtb .text
+{
+    font-family: 'Itim', cursive;
+    font-size: 48px;
+    margin-top: 40px;
+}
+
+.bluebox
+{
+    background-color:#7DF9E2;
+    height: 70px;
+    width: 800px;
+    border-radius: 50px;
+    margin-left: -90px;
+    margin-top:10px;
+}
+
+.txtb
+{
+    display: flex;
+}
+
+.txtb .box
+{
+    background-color:#7DF9E2;
+    width: 1040px;
+    height: 200px;
+    border-radius: 50px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+
+.heart img
+{
+    margin-top: -190px;
+    margin-left: -100px;
+}
+
+.contact button
+{
+    width:300px;
+    height: 80px;
+    background-color: #8BECDB;
+    border-radius: 80px;
+    border:7px solid black;
+    margin-left: 250px;
+    margin-top: 25px;
+    font-size: 30px;
+    color: #FA2E2E;
+    font-family: 'Odor Mean Chey', serif;
+}
+
+.line iconify-icon
+{
+    margin-left:-150px;
+    margin-top: -700px;
+    transform: rotate(-30deg);
+}

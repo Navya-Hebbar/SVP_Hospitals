@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua&display=swap');
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+
+body
+{
+    background: linear-gradient(#FF4848,#F7B1B1);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.box
+{
+    width:1000px;
+    height: 550px;
+    background-color:#FFE5E5;
+    margin-left: 270px;
+    /* margin-top: 177px; */
+    border-radius: 70px;
+    border: 9px inset black;
+}
+
+.box img
+{
+    width: 400px;
+    height: 270px;
+    margin-left: 330px;
+    /* margin-top: 7px; */
+}
+
+
+.heading .title
+{
+    color: white;
+    margin-top: 75px;
+    font-size: 35px;
+    font-family: 'Jua', sans-serif;
+}
+
+.heading
+{
+    display: flex;
+}
+
+.heading .icon
+{
+    margin-left: 630px;
+    margin-top: 51px;
+}
+
+.login-box .input-box input
+{
+    background-color:#FA005A;
+    border-radius: 50px;
+    width: 350px;
+    height: 60px;
+    border: none;
+    margin-left: 150px;
+}
+
+.login-box .input-box1 input
+{
+    background-color:#FA005A;
+    border-radius: 50px;
+    width: 350px;
+    height: 60px;
+    border: none;
+    margin-left: 60px;
+}
+
+.login-box1 .input-box2 input
+{
+    background-color:#FA005A;
+    border-radius: 50px;
+    width: 350px;
+    height: 60px;
+    border: none;
+    margin-left: 150px;
+}
+
+.login-box1 .input-box3 input
+{
+    background-color:#FA005A;
+    border-radius: 50px;
+    width: 350px;
+    height: 60px;
+    border: none;
+    margin-left: 60px;
+}
+
+.login-box,.login-box1
+{
+    display: flex;
+}
+
+.login button
+{
+    width: 290px;
+    height: 50px;
+    background-color:#FF0000;
+    color:white;
+    border: none;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-left: 360px;
+    font-family: 'Itim', cursive;
+    font-size: 30px;
+}
+
+.doyou
+{
+    font-family: 'Inknut Antiqua', serif;
+    margin-left: 260px;
+    font-size: 24px;
+}
+
+.doyou
+{
+    display: flex;
+    font-size: 18px;
+    margin-left: 320px;
+}
+
+.doyou a
+{
+    text-decoration: none;
+    color:#FA005A;
+}
+
+.doyou a:hover
+{
+    text-shadow: 1px 1px palevioletred;
+}
+
+.doyou h3
+{
+    font-family: 'Inknut Antiqua', serif;
+    color: #FF0000;
+    font-size: 20px;
+    margin-top: -4px;
+
+}
+
+.input-box input[type="text"]::placeholder 
+{
+             
+    /* Firefox, Chrome, Opera */
+    text-align: center;
+    color: white;
+    font-family: cursive;
+    font-size: 20px;
+}
+
+.input-box1 input[type="tel"]::placeholder 
+{
+             
+    /* Firefox, Chrome, Opera */
+    text-align: center;
+    color: white;
+    font-family: cursive;
+    font-size: 20px;
+}
+
+.input-box2 input[type="password"]::placeholder 
+{
+             
+    /* Firefox, Chrome, Opera */
+    text-align: center;
+    color: white;
+    font-family: cursive;
+    font-size: 20px;
+}
+
+.input-box3 input[type="email"]::placeholder 
+{
+             
+    /* Firefox, Chrome, Opera */
+    text-align: center;
+    color: white;
+    font-family: cursive;
+    font-size: 20px;
+}
