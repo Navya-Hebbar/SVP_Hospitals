@@ -22,7 +22,7 @@ body
 {
     font-family: 'Jua', sans-serif;
     font-size: 64px;
-    text-shadow: 1px 1px solid black;
+    text-shadow: 1px 1px 10px rgb(62, 60, 60);
     margin-top: 160px;
 }
 
