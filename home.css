@@ -77,3 +77,14 @@ body{
     font-family: 'Jacques Francois', serif;
     color: gold;
 }
+
+a
+{
+    text-decoration: none;
+    color:black
+}
+
+a:hover=4==
+{
+    text-shadow: 1px 1px white;
+}
